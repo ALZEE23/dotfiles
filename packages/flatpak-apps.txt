@@ -1,0 +1,11 @@
+com.dec05eba.gpu_screen_recorder
+com.github.wwmm.easyeffects
+com.mattjakeman.ExtensionManager
+com.spotify.Client
+dev.vencord.Vesktop
+io.gdevelop.ide
+io.github.arunsivaramanneo.GPUViewer
+md.obsidian.Obsidian
+org.gnome.Snapshot
+org.gnome.baobab
+org.telegram.desktop
