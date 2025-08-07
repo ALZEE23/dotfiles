@@ -1,0 +1,68 @@
+[global_config]
+  tab_position = hidden
+  inactive_color_offset = 1.0
+  ask_before_closing = never
+  title_at_bottom = True
+[keybindings]
+  go_up = <Primary><Super>a
+  go_down = <Primary><Super>s
+  go_left = <Primary><Super>z
+  go_right = <Primary><Super>x
+  split_auto = <Shift>space
+  split_horiz = <Primary><Shift>o
+  close_term = <Primary>w
+  copy = <Primary>c
+  paste = <Primary>v
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#191724"
+    cursor_fg_color = "#ffffff"
+    cursor_bg_color = "#ffffff"
+    cursor_color_default = False
+    font = JetBrains Mono Medium 12
+    foreground_color = "#d4d2e8"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_output = True
+    scrollback_infinite = True
+    palette = "#fbf1c7:#d56687:#2a5a72:#ffffff:#458588:#b16286:#e5b7b6:#ffffff:#6e6a86:#ffffff:#ffffff:#ffffff:#076678:#2a5a72:#2a5a72:#ffffff"
+    use_system_font = False
+    title_hide_sizetext = True
+    title_transmit_fg_color = "#d4d2e8"
+    title_transmit_bg_color = "#191724"
+    title_receive_fg_color = "#d4d2e8"
+    title_receive_bg_color = "#191724"
+    title_inactive_fg_color = "#d4d2e8"
+    title_inactive_bg_color = "#191724"
+  [[default 2]]
+    icon_bell = False
+    background_color = "#191724"
+    cursor_fg_color = "#ffffff"
+    cursor_bg_color = "#ffffff"
+    cursor_color_default = False
+    font = JetBrains Mono Medium 12
+    foreground_color = "#d4d2e8"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_output = True
+    scrollback_infinite = True
+    palette = "#2a5a72:#076678:#2a5a72:#ffffff:#076678:#b16286:#e5b7b6:#ffffff:#6e6a86:#d56687:#2a5a72:#ffffff:#076678:#2a5a72:#2a5a72:#ffffff"
+    use_system_font = False
+    title_hide_sizetext = True
+    title_transmit_fg_color = "#d4d2e8"
+    title_transmit_bg_color = "#191724"
+    title_receive_fg_color = "#d4d2e8"
+    title_receive_bg_color = "#191724"
+    title_inactive_fg_color = "#d4d2e8"
+    title_inactive_bg_color = "#191724"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]

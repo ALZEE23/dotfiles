@@ -12,6 +12,10 @@ flatpak install flathub $(cat flatpak-apps.txt)
 
 pip install -r pip-requirements.txt
 
+cp bash/.bashrc ~/
+cp zsh/.zshrc ~/
+
+cp -r config/terminator ~/.config/
 
 ---
 
