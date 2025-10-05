@@ -18,7 +18,3 @@ cp zsh/.zshrc ~/
 cp -r config/terminator ~/.config/
 
 ---
-
-Kalau nanti kamu mau bikin setup yang bisa restore otomatis, bisa juga bikin script `.sh` yang menjalankan semua itu.
-
-Kalau mau contoh yang otomatis restore semua, tinggal bilang aja ya — bisa kubantu buatin template-nya juga.
